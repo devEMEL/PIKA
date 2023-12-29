@@ -22,15 +22,15 @@ const Navbar = () => {
 
             <p className="capitalize text-[16.83px] ml-6 font-[300]">
               
-              <a href="#services">services</a>
+              <a href="#howItWorks">How It works</a>
             </p>
-            <p className="capitalize text-[16.83px] ml-6 font-[300]"><a href="#about">about</a></p>
-            <p className="capitalize text-[16.83px] ml-6 font-[300]">
+            <p className="capitalize text-[16.83px] ml-6 font-[300]"><a href="#partner">Partner With Us</a></p>
+            {/* <p className="capitalize text-[16.83px] ml-6 font-[300]">
               Our offices
-            </p>
+            </p> */}
             <button className="bg-[#E96A48CC] text-[#ffffff] ml-6 py-[10px] px-[22px] flex justify-between items-center rounded-md">
               <Map />
-              <p className="ml-3  text-[#000000]">Track Delivery</p>
+              <p className="ml-3 text-[#000000]"><a href="#earlyAccess">Early Access</a></p>
             </button>
           </div>
         </div>

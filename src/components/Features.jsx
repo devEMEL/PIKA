@@ -5,7 +5,7 @@ import lowPriceImg from "../assets/images/lowprice1.png";
 
 const Features = () => {
   return (
-    <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#FFFFFF] mt-20" id="services">
+    <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#FFFFFF] mt-20">
       <h1 className="text-center text-[#000000] font-['Open Sans'] sm:text-[32px] md:text-[42px] font-[700] mb-[60px]">
         Features
       </h1>

@@ -7,7 +7,7 @@ import trackDeliveryIcon from "../assets/images/trackDelivery.png";
 
 const HowItWorks = () => {
   return (
-    <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] mt-[20px]">
+    <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] mt-[20px]" id="howItWorks">
       <h1 className="text-center text-[#000000] font-['Open Sans'] sm:text-[32px] md:text-[42px] font-[700] sm:mt-20">
         How It Works
       </h1>

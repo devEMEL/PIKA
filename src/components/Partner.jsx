@@ -2,7 +2,7 @@ import React from "react";
 
 const Partner = () => {
   return (
-    <div className="bg-[#5A449B] max-w-[100%] w-[100%]">
+    <div className="bg-[#5A449B] max-w-[100%] w-[100%]" id="partner">
       <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto mt-20">
         <div className="flex flex-col items-center sm:py-[50px] md:py-[100px] font-['Montserrat']">
           <h1 className="sm:text-[30px] md:text-[40px] font-[700] leading-[57px] tracking-[0.2px] text-[#FFFFFF]">

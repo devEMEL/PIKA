@@ -43,16 +43,16 @@ const Menu = () => {
                   </p>
 
                   <p className="capitalize text-[16.83px] pl-6 font-[300] pb-2 mb-2 border-b-2 border-solid border-[#FFFFFF]">
-                    <button>Services</button>
+                    <button>How It Works</button>
                   </p>
 
                   <p className="capitalize text-[16.83px] pl-6 font-[300] pb-2 mb-2 border-b-2 border-solid border-[#FFFFFF]">
-                    <button>About</button>
+                    <button>Partner With Us</button>
                   </p>
 
-                  <p className="capitalize text-[16.83px] pl-6 font-[300] pb-2 mb-2 border-b-2 border-solid border-[#FFFFFF]">
+                  {/* <p className="capitalize text-[16.83px] pl-6 font-[300] pb-2 mb-2 border-b-2 border-solid border-[#FFFFFF]">
                     <button>Our offices</button>
-                  </p>
+                  </p> */}
 
                   <button className="text-[#ffffff] pl-6 flex items-center rounded-md mb-2 border-b-2 border-solid border-[#FFFFFF]">
                     <Map />
