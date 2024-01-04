@@ -2,9 +2,9 @@ import React from "react";
 
 const Flex = () => {
   return (
-    <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] my-20">
-      <div className="flex sm:flex-col lg:flex-row">
-        <div className="bg-[#000000] text-[#ffffff] sm:basis-1 lg:basis-1/2 p-5">
+    <div className="max-w-[96%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] my-20">
+      <div className="flex flex-col lg:flex-row">
+        <div className="bg-[#000000] text-[#ffffff] basis-1 lg:basis-1/2 p-5">
           <form action="">  
             <div>
               <input
@@ -32,7 +32,7 @@ const Flex = () => {
               </div>
           </form>
         </div>
-        <div className="sm:basis-1 lg:basis-1/2">
+        <div className="basis-1 lg:basis-1/2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
           placeat? Iusto facilis iure laborum dicta debitis maiores molestiae
           eaque voluptas, dignissimos similique, aliquid reprehenderit

@@ -3,15 +3,15 @@ import map from "../assets/images/map.png";
 const ContactUs = () => {
   return (
     <div
-      className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] mt-20 mb-20"
+      className="max-w-[96%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] mt-20 mb-20"
       id="about"
     >
-      <h1 className="text-center text-[#000000] font-['Open Sans'] sm:text-[32px] md:text-[42px] font-[700] mb-[60px]">
+      <h1 className="text-center text-[#000000] font-['Open Sans'] text-[32px] md:text-[42px] font-[700] mb-[60px]">
         Contact Us
       </h1>
 
-      <div className="flex sm:flex-col lg:flex-row">
-        <div className="sm:basis-1 lg:basis-1/2 lg:p-4">
+      <div className="flex flex-col lg:flex-row">
+        <div className="basis-1 lg:basis-1/2 lg:p-4">
           <form onSubmit={(e) => e.preventDefault()}>
             <div className="">
               <div>
@@ -39,7 +39,7 @@ const ContactUs = () => {
                 ></textarea>
               </div>
 
-              <div className="sm:w-[100%] md:[65%] flex justify-center">
+              <div className="w-[100%] md:[65%] flex justify-center">
                 <button
                   type="submit"
                   className="w-[113px] h-[38px] bg-[#00B16E] rounded-[5px]"
@@ -52,7 +52,7 @@ const ContactUs = () => {
           </form>
         </div>
 
-        <div className="sm:basis-1 lg:basis-1/2 sm:hidden lg:block">
+        <div className="basis-1 lg:basis-1/2 hidden lg:block">
           <img src={map} />
         </div>
       </div>

@@ -8,9 +8,9 @@ import youtube from "../assets/images/youtube.png";
 const Footer = () => {
   return (
     <div className="bg-[#000000]">
-      <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto">
-        <div className="flex sm:flex-col lg:flex-row text-[#FFFFFF] pt-[60px] font-['Robobto']">
-          <div className="sm:basis-1 lg:basis-1/2 lg:pr-[10%]">
+      <div className="max-w-[96%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto">
+        <div className="flex flex-col lg:flex-row text-[#FFFFFF] pt-[60px] font-['Robobto']">
+          <div className="basis-1 lg:basis-1/2 lg:pr-[10%]">
             <Pika />
             <p className="mt-[40px] font-[14px]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex sm:justify-center lg:justify-start mt-4">
+        <div className="flex justify-center lg:justify-start mt-4">
           <img src={facebook} className="mr-4" />
           <img src={instagram} className="mr-4" />
           <img src={twitter} className="mr-4" />

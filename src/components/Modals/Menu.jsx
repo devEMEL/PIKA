@@ -14,7 +14,7 @@ const Menu = () => {
     <>
       {showModal && (
         <div className="block md:hidden">
-          <div className="max-w-[94%] w-[100%] fixed">
+          <div className="max-w-[96%] w-[100%] mx-auto fixed">
             <div className="w-full fixed top-[0] left-[0]">
               <div className="bg-[#000000] text-[#FFFFFF] pb-[100vh]">
                 <div className="pt-4 pb-6 pl-6 flex justify-between items-center">

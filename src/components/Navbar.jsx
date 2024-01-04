@@ -10,7 +10,7 @@ import {
 const Navbar = () => {
   const dispatch = useDispatch();
   return (
-    <div className="sm:max-w-[94%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] mt-[20px]">
+    <div className="max-w-[96%] md:max-w-[90%] xl:max-w-[80%] w-[100%] mx-auto bg-[#ffffff] mt-[20px]">
       <div className="flex justify-between items-center">
         <div>
           <Pika />
