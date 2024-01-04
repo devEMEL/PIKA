@@ -21,7 +21,6 @@ const Hero = () => {
           <p className="text-[22.83px] font-[400] my-3 text-center lg:text-left mt-10">
             We're Taking Delivery to the Next Level
           </p>
-          
         </div>
 
         {/* basis 1/2 */}
@@ -36,33 +35,33 @@ const Hero = () => {
       </div>
       {/* mt-40 lg:mt-20 */}
       <div className="flex w-[100%] lg:w-[50%]">
-            <div className="flex basis-1/2 items-center bg-[#000000] rounded-md text-[#ffffff] py-[4px] md:py-[10px] pl-[10px] pr-[40px] lg:pl-[10px] lg:pr-[40px]">
-              <GPlay />
-              <div className="ml-2">
-                <button>
-                  <p className="text-[12.83px] xl:text-[18.83px]">
-                    GET PIKA APP On
-                  </p>
-                  <p className="leading-[125.5%] font-[600] text-[18.83px] xl:text-[27.83px]">
-                    Google Play store
-                  </p>
-                </button>
-              </div>
-            </div>
-            <div className="flex basis-1/2 items-center bg-[#000000] rounded-md text-[#ffffff] py-[4px] md:py-[10px] pl-[10px] pr-[40px] lg:pl-[10px] lg:pr-[40px] ml-5">
-              <AppStore />
-              <div className="ml-2">
-                <button>
-                  <p className="text-[12.83px] xl:text-[18.83px]">
-                    GET PIKA APP On
-                  </p>
-                  <p className="leading-[125.5%] font-[600]0 text-[18.83px] xl:text-[27.83px]">
-                    App store
-                  </p>
-                </button>
-              </div>
-            </div>
+        <div className="flex basis-1/2 items-center bg-[#000000] rounded-md text-[#ffffff] py-[4px] md:py-[10px] pl-[10px] pr-[40px] lg:pl-[10px] lg:pr-[40px]">
+          <GPlay />
+          <div className="ml-2">
+            <button>
+              <p className="text-[12.83px] xl:text-[18.83px]">
+                GET PIKA APP On
+              </p>
+              <p className="leading-[125.5%] font-[600] text-[18.83px] xl:text-[27.83px]">
+                Google Play store
+              </p>
+            </button>
           </div>
+        </div>
+        <div className="flex basis-1/2 items-center bg-[#000000] rounded-md text-[#ffffff] py-[4px] md:py-[10px] pl-[10px] pr-[40px] lg:pl-[10px] lg:pr-[40px] ml-5">
+          <AppStore />
+          <div className="ml-2">
+            <button>
+              <p className="text-[12.83px] xl:text-[18.83px]">
+                GET PIKA APP On
+              </p>
+              <p className="leading-[125.5%] font-[600]0 text-[18.83px] xl:text-[27.83px]">
+                App store
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -39,25 +39,67 @@ const Menu = () => {
                 </div>
                 <div className="flex flex-col">
                   <p className="capitalize text-[22.83px] pl-6 font-[500] pb-2 mt-2 mb-1 border-b-2 border-solid border-[#FFFFFF]">
-                    <button>Home</button>
+                    <a
+                      href="#"
+                      onClick={() => {
+                        dispatch(hideMenuModal());
+                        console.log("show menu bar");
+                      }}
+                    >
+                      Home
+                    </a>
                   </p>
 
                   <p className="capitalize text-[16.83px] pl-6 font-[300] pb-2 mb-2 border-b-2 border-solid border-[#FFFFFF]">
-                    <button>How It Works</button>
+                    <a
+                      href="#howItWorks"
+                      onClick={() => {
+                        dispatch(hideMenuModal());
+                        console.log("show menu bar");
+                      }}
+                    >
+                      How It works
+                    </a>
                   </p>
 
                   <p className="capitalize text-[16.83px] pl-6 font-[300] pb-2 mb-2 border-b-2 border-solid border-[#FFFFFF]">
-                    <button>Partner With Us</button>
+                    <a
+                      href="#partner"
+                      onClick={() => {
+                        dispatch(hideMenuModal());
+                        console.log("show menu bar");
+                      }}
+                    >
+                      Partner With Us
+                    </a>
                   </p>
 
                   {/* <p className="capitalize text-[16.83px] pl-6 font-[300] pb-2 mb-2 border-b-2 border-solid border-[#FFFFFF]">
                     <button>Our offices</button>
                   </p> */}
 
-                  <button className="text-[#ffffff] pl-6 flex items-center rounded-md mb-2 border-b-2 border-solid border-[#FFFFFF]">
-                    <Map />
-                    <p className="ml-3">Track Delivery</p>
-                  </button>
+                  <p className="text-[#ffffff] pl-6 flex items-center rounded-md mb-2 border-b-2 border-solid border-[#FFFFFF]">
+                    <a
+                      href="#earlyAccess"
+                      onClick={() => {
+                        dispatch(hideMenuModal());
+                        console.log("show menu bar");
+                      }}
+                    >
+                      <Map />
+                    </a>
+                    <span className="ml-3">
+                      <a
+                        href="#earlyAccess"
+                        onClick={() => {
+                          dispatch(hideMenuModal());
+                          console.log("show menu bar");
+                        }}
+                      >
+                        Early Access
+                      </a>
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>
